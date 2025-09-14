@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Время намазов</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+ <div class="container">
+        <header>
+            <h1>Время намазов</h1>
+        </header>
+        
+        <div class="controls">
+            <select id="city-select">
+                <option value="Moscow">Москва</option>
+                <option value="Kazan">Казань</option>
+                <option value="Makhachkala">Махачкала</option>
+                <option value="Grozny">Грозный</option>
+                <option value="Ufa">Уфа</option>
+            </select>
+            <select id="method-select">
+                <option value="3">Мусульманский мир</option>
+            </select>
+            <button id="get-times">Получить время намазов</button>
+        </div>
+        
+        <div id="prayer-times-container">
+            <div class="loading">Выберите город и нажмите "Получить время намазов"</div>
+        </div>
+        
+
+        
+        <footer>
+            <p>Учебный пример для изучения работы с API</p>
+        </footer>
+    </div>
+
+
+    <script src="js/script.js"></script>
+    </script>
+</body>
+</html>
